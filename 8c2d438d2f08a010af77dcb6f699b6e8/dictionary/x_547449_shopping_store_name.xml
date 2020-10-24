@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Store name" max_length="40" name="x_547449_shopping_store_name" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Wegmans" display="true" label="Store name" mandatory="true" max_length="40" name="store_name" type="string">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+    </element>
+</database>
